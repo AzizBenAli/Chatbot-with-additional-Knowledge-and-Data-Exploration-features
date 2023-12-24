@@ -9,12 +9,6 @@ This AI assistant is a versatile tool designed to cater to various needs, offeri
 - CSV data analysis
 - PDF content exploration
 
-### First Page Insight
-The initial interface showcases the AI assistant's capabilities, guiding users by clicking the "AI Assistant" button.
-
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/e7bb6fbb-fc5e-47e6-a417-00a7c85dc6a2" alt="First Page Insight" width="1200">
-</p>
-Description: Overview of the AI Assistant's capabilities.
 
 ### App Functionalities
 The app exhibits a wide range of functionalities, ensuring adaptability and versatility across various tasks.

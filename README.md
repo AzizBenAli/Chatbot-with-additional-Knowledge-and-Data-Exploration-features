@@ -20,12 +20,8 @@ Description: Overview of the AI Assistant's capabilities.
 The app exhibits a wide range of functionalities, ensuring adaptability and versatility across various tasks.
 It supports knowledge-based queries, mathematical problem-solving, provides the latest news updates, engages in conversations, analyzes CSV data, and explores PDF content.
 
-<p align="center">
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/0f082ca5-5831-439e-8dc1-929e334a5d81" alt="App Functionalities" width="1200">
-</p>
-Description: Illustration of the diverse functionalities of the AI Assistant.
 
-<h1>Explore the chatbot's capabilities by watching this short video</h1>
+### Explore the chatbot's capabilities by watching this short video 
 
 <a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank"><img src="path_to_your_image.png" alt="Video Thumbnail" width="500" height="300"></a>
 

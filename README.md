@@ -25,6 +25,9 @@ It supports knowledge-based queries, mathematical problem-solving, provides the 
 </p>
 Description: Illustration of the diverse functionalities of the AI Assistant.
 
+Explore the chatbot's capabilities by watching this short video  
+[Watch the video](https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259)
+
 ### Conversational Ability
 The AI assistant's ability to engage in real discussions with users, setting it apart from traditional question-and-answer chatbots.
 It offers an interactive and conversational experience, making it more than just a Q&A chatbot.
@@ -43,8 +46,6 @@ Users can stay updated on current affairs and trending topics within the app.
 </p>
 Description: Showcasing the AI Assistant's ability to provide users with the latest news updates, expanding its functionality beyond conventional use cases.
 
-To get more knowledge of the chatbot, watch this short video:  
-[Watch the video](https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259)
  
 
 ### CSV Upload and Query

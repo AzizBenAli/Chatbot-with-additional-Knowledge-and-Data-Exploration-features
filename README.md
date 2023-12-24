@@ -68,6 +68,12 @@ Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 -Python was employed for the backend logic, leveraging its versatility and extensive libraries.  
 -Streamlit was utilized for creating the user-friendly interface, ensuring an interactive and seamless experience.  
 -Langchain was utilized for developing prompts and agents, enhancing the AI Assistant's functionality.    
+
+### Contributions 
+Contributions to enhance features or add new capabilities are welcome! Fork the repository, make your changes, and submit a pull request.
+
+### Contact Information
+For inquiries or feedback, reach out to [benaliazizaba000@gmail.com] 
  
 
 

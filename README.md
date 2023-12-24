@@ -44,7 +44,7 @@ Users can stay updated on current affairs and trending topics within the app.
 Description: Showcasing the AI Assistant's ability to provide users with the latest news updates, expanding its functionality beyond conventional use cases.
 
 To get more knowledge of the chatbot, watch this short video:  
-[Watch the video](https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259)(https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259)
+[Watch the video](https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259)
  
 
 ### CSV Upload and Query

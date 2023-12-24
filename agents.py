@@ -12,7 +12,7 @@ from langchain.schema import SystemMessage
 from langchain.llms.ai21 import AI21
 from datetime import datetime
 from langchain.utilities import WikipediaAPIWrapper, DuckDuckGoSearchAPIWrapper
-llm = AI21(ai21_api_key='AJYixGyGITvBULVqagcBFqn0dsPfYmLY',temperature=0.1,verbose=False)
+llm = AI21(ai21_api_key='',temperature=0.1,verbose=False) # enter your API KEY here
 
 datetime_tool = Tool(
     name="Datetime",

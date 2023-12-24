@@ -17,7 +17,8 @@ The initial interface showcases the AI assistant's capabilities, guiding users b
 Description: Overview of the AI Assistant's capabilities.
 
 ### App Functionalities
-The app exhibits a wide range of functionalities, ensuring adaptability and versatility across various tasks which will be discussed later.
+The app exhibits a wide range of functionalities, ensuring adaptability and versatility across various tasks.
+It supports knowledge-based queries, mathematical problem-solving, provides the latest news updates, engages in conversations, analyzes CSV data, and explores PDF content.
 
 <p align="center">
 <img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/0f082ca5-5831-439e-8dc1-929e334a5d81" alt="App Functionalities" width="1200">
@@ -35,6 +36,7 @@ Description: Highlighting the AI Assistant's conversational capabilities.
 
 ### Latest News Feature
 The AI Assistant also enables users to access the latest news, enhancing its utility as a multifaceted tool.
+Users can stay updated on current affairs and trending topics within the app.
 
 <p align="center">
 <img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/59958af9-f914-4b8b-a6cc-282822614f02" alt="Search" width="1200">
@@ -43,7 +45,8 @@ Description: Showcasing the AI Assistant's ability to provide users with the lat
 
 
 ### CSV Upload and Query
-Users can upload CSV files and query the AI Assistant for specific information, as demonstrated here.
+Users can upload CSV files and query the AI Assistant for specific information and insights.
+The AI Assistant analyzes the uploaded CSV data and provides relevant answers based on the user's queries.
 
 <p align="center">
 <img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/f6716140-36db-4dd1-ba58-3f9c516e6e7c" alt="CSV Upload and Query" width="1200">
@@ -52,11 +55,20 @@ Description: Querying the AI Assistant using a CSV file.
 
 ### PDF Upload and Chat
 An essential feature includes the ability to upload multiple PDFs and interact with the AI Assistant for queries.
+Users can have conversations with the AI Assistant based on the content of the uploaded PDFs, receiving detailed and relevant information.
 
 <p align="center">
 <img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/d3fb5ef5-ce21-4a5a-a772-b3d0b5f943a8" alt="PDF Upload and Chat" width="1200">
 </p>
 Description: Interacting with the AI Assistant using uploaded PDFs for queries.
+
+### Technologies Used
+The large language model used is Ultra-2 from AI21 Studio, which powers the conversational capabilities.
+Python was employed for the backend logic, leveraging its versatility and extensive libraries.
+Streamlit was utilized for creating the user-friendly interface, ensuring an interactive and seamless experience.
+Langchain was utilized for developing prompts and agents, enhancing the AI Assistant's functionality.
+Hugging Face Transformers played a pivotal role in executing various NLP tasks, contributing to the AI Assistant's intelligence.
+
 
 
 

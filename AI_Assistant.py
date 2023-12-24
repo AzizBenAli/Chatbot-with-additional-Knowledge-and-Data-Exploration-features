@@ -33,7 +33,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 def show_chatbot_page():
  load_dotenv()
- os.environ['HUGGINGFACEHUB_API_TOKEN']='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'
+ os.environ['HUGGINGFACEHUB_API_TOKEN']=''  # enter your API KEY here
  PREFIX = """Answer the following questions as best you can only using the following tools:
  Calculator: Useful for when you need to answer questions about math and arithmetics.
  python_repl: Useful when you need to execute python commands.
@@ -177,7 +177,7 @@ Overall, Assistant is a powerful system that can help with a wide range of tasks
     "system_message ":system_message
  }
 
- llm = AI21(ai21_api_key='AJYixGyGITvBULVqagcBFqn0dsPfYmLY',temperature=0.1,verbose=False)
+ llm = AI21(ai21_api_key='',temperature=0.1,verbose=False) # enter your API KEY here
  memory = ConversationBufferWindowMemory(
     memory_key='chat_history',
     k=5,

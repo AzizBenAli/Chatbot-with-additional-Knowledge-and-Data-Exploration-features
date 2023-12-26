@@ -17,7 +17,7 @@ It supports knowledge-based queries, mathematical problem-solving, provides the 
 
 ### Explore the chatbot's capabilities by watching this short video 
 
-<a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank"><img src="path_to_your_image.png" alt="Video Thumbnail" width="500" height="300"></a>
+<a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank"><img src="path_to_your_image.png" alt="Video Thumbnail" width="900" height="300"></a>
 
 
 ### Conversational Ability
@@ -25,7 +25,7 @@ The AI assistant's ability to engage in real discussions with users, setting it 
 It offers an interactive and conversational experience, making it more than just a Q&A chatbot.
 
 <p align="center">
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/213d9f90-41cc-4b35-bc5d-3639fa360d61" alt="Conversational Ability" width="1200">
+<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/213d9f90-41cc-4b35-bc5d-3639fa360d61" alt="Conversational Ability" width="900">
 </p>
 Description: Highlighting the AI Assistant's conversational capabilities.
 
@@ -34,7 +34,7 @@ The AI Assistant also enables users to access the latest news, enhancing its uti
 Users can stay updated on current affairs and trending topics within the app.
 
 <p align="center">
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/59958af9-f914-4b8b-a6cc-282822614f02" alt="Search" width="1200">
+<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/59958af9-f914-4b8b-a6cc-282822614f02" alt="Search" width="900">
 </p>
 Description: Showcasing the AI Assistant's ability to provide users with the latest news updates, expanding its functionality beyond conventional use cases.
 
@@ -45,7 +45,7 @@ Users can upload CSV files and query the AI Assistant for specific information a
 The AI Assistant analyzes the uploaded CSV data and provides relevant answers based on the user's queries.
 
 <p align="center">
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/f6716140-36db-4dd1-ba58-3f9c516e6e7c" alt="CSV Upload and Query" width="1200">
+<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/f6716140-36db-4dd1-ba58-3f9c516e6e7c" alt="CSV Upload and Query" width="900">
 </p>
 Description: Querying the AI Assistant using a CSV file.
 
@@ -54,7 +54,7 @@ An essential feature includes the ability to upload multiple PDFs and interact w
 Users can have conversations with the AI Assistant based on the content of the uploaded PDFs, receiving detailed and relevant information.
 
 <p align="center">
-<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/d3fb5ef5-ce21-4a5a-a772-b3d0b5f943a8" alt="PDF Upload and Chat" width="1200">
+<img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/d3fb5ef5-ce21-4a5a-a772-b3d0b5f943a8" alt="PDF Upload and Chat" width="900">
 </p>
 Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 

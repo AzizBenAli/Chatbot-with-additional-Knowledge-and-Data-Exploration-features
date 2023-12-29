@@ -1,76 +1,82 @@
 import streamlit as st
 
 def show_home_page():
+    
     st.markdown(
         """
         <style>
+        /* Global Styles */
         body {
-            background-color: #1E1E1E; /* Background color */
-            color: #E8DAD7; /* Text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
-        .header-text {
-            font-size: 36px;
-            font-weight: bold;
-            color: #FFD700; /* Header text color */
-            margin-bottom: 20px;
-            animation: fadeInUp 1s ease-in-out; /* Fade-in animation */
+
+        /* Title Styles */
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px 20px; /* Reduced padding */
+            background-color: #0E1117;
+            color: #FFD700;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            font-size: 44px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeInTitle 1s ease-in-out; /* Apply fade-in animation to the title */
         }
+
+        /* Info Section Styles */
         .info-section {
-            padding: 20px;
-            background-color: #333; /* Info section background color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            background-color: #0E1117;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            margin-bottom: 20px;
-            animation: slideInLeft 1s ease-in-out; /* Slide-in animation */
+            margin-bottom: 40px;
+            animation: slideInInfo 1s ease-in-out; /* Apply slide-in animation to the info section */
         }
-        .info-section p {
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-        .info-section ul {
-            margin-bottom: 15px;
-        }
-        .info-section li {
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-        .contact-section {
-            padding: 20px;
-            background-color: #444; /* Contact section background color */
+
+        .info-section img {
+            max-width: 300px;
             border-radius: 10px;
-            margin-bottom: 20px;
-            animation: fadeInRight 1s ease-in-out; /* Fade-in animation */
+            margin-right: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        
-        @keyframes fadeInUp {
+
+        .info-text {
+            font-size: 30px; /* Increased paragraph font size */
+            color: #ffffff;
+            line-height: 1.6;
+            font-family: ADLaM Display; /* Changed font style */
+            font-style: italic; /* Added italic style */
+        }
+
+        /* Animation Keyframes */
+        @keyframes fadeInTitle {
             from {
                 opacity: 0;
-                transform: translateY(20px);
             }
             to {
                 opacity: 1;
-                transform: translateY(0);
             }
         }
-        
-        @keyframes slideInLeft {
+
+        @keyframes slideInInfo {
             from {
-                opacity: 0;
                 transform: translateX(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-        
-        @keyframes fadeInRight {
-            from {
                 opacity: 0;
-                transform: translateX(20px);
             }
             to {
-                opacity: 1;
                 transform: translateX(0);
+                opacity: 1;
             }
         }
         </style>
@@ -79,36 +85,20 @@ def show_home_page():
     )
 
     # Main title with emoji
-    st.title("🤖 Welcome to Our ChatBot App 🚀")
-    # Header for Performance Metrics section with emoji
-    st.markdown('<p class="header-text">📊 Performance And Use</p>', unsafe_allow_html=True)
-    
-    # Performance Metrics section with emojis
-    st.markdown(
-    """
-    <div class="info-section">
-        <p>Our AI assistant is currently undergoing development and continuously improving its capabilities. 
-        It's designed to handle a variety of tasks, including <span style='color:#FF6347'>knowledge-based queries</span>, 
-        <span style='color:#FF6347'>mathematical problem-solving</span>, <span style='color:#FF6347'>uploading CSV files</span>, 
-        and even <span style='color:#FF6347'>uploading PDF files</span> for engaging in conversations with your PDF content.</p>
-    </div>
-    """,unsafe_allow_html=True
-    )
+    st.markdown("<h1 class='header'>Hi, I am Ted!<br> Your AI Assistant </h1>", unsafe_allow_html=True)
 
-
-    st.markdown('<p class="header-text">📧 Contact Us</p>', unsafe_allow_html=True)
-    
-    # Contact Us section with emoji
+    # Performance Metrics section with images and text
     st.markdown(
         """
-        <div class="contact-section">
-            <p>For feedback or inquiries, please contact us at:</p>
-            <p><a href="mailto:benaliaziz@gmail.com">📩 benaliaziz@gmail.com</a></p>
+        <div class="info-section">
+            <img src="https://images.unsplash.com/photo-1589254066213-a0c9dc853511?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJvYm90fGVufDB8fDB8fHww" alt="Performance Metrics" />
+            <div class="info-text">
+                <h2>I'm a versatile chatbot equipped to assist with a wide range of queries and facilitate data exploration using a diverse set of tools programmed into my system.</h2>
+            </div>
         </div>
         """,
         unsafe_allow_html=True
     )
-
 
 if __name__ == "__main__":
     show_home_page()

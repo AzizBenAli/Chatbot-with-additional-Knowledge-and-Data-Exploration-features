@@ -15,11 +15,10 @@ The app exhibits a wide range of functionalities, ensuring adaptability and vers
 It supports knowledge-based queries, mathematical problem-solving, provides the latest news updates, engages in conversations, analyzes CSV data, and explores PDF content.
 
 
+<a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank"><img src="path_to_your_image.png" alt="Video Thumbnail" width="500" height="300"></a>
 
 <h1>Explore the chatbot's capabilities by watching this short video</h1>
-<a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank">
-    <img src="path_to_your_image.png" alt="Video Thumbnail" width="900" height="300">
-</a>
+<a href="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/ec1e73d5-9b27-4c11-a00b-44b5cecaa259" target="_blank"><img src="path_to_your_image.png" alt="Video Thumbnail" width="900" height="300"></a>
 
 ### Conversational Ability
 The AI assistant's ability to engage in real discussions with users, setting it apart from traditional question-and-answer chatbots.

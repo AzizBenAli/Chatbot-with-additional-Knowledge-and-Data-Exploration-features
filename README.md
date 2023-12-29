@@ -57,11 +57,12 @@ Users can have conversations with the AI Assistant based on the content of the u
 Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 
 ### Technologies Used
--The large language model used is Ultra-2 from AI21 Studio, which powers the conversational capabilities.  
--Hugging Face Transformers and embeddings played a pivotal role in executing various NLP tasks, contributing to the AI Assistant's intelligence.  
--Python was employed for the backend logic, leveraging its versatility and extensive libraries.  
--Streamlit was utilized for creating the user-friendly interface, ensuring an interactive and seamless experience.  
--Langchain was utilized for developing prompts and agents, enhancing the AI Assistant's functionality.    
+Ultra-2 Language Model from AI21 Studio: It powers the conversational capabilities and drives the AI's intelligence.  
+Mixtral 8×7B: Utilized to answer queries based on CSV and PDF files, enhancing data interaction capabilities.   
+Hugging Face Transformers and Embeddings: Crucial components for various NLP tasks, contributing to the AI's intelligence and understanding.  
+Python: Employed for backend logic due to its versatility, extensive libraries, and robust functionality.  
+Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
+Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.     
 
 ### Contributions 
 Contributions to enhance features or add new capabilities are welcome! Fork the repository, make your changes, and submit a pull request.

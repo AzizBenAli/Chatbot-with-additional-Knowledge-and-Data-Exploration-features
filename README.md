@@ -1,5 +1,16 @@
 # AI-Assistant-for-Knowledge-and-Data-Exploration
 
+## Table of Contents
+- [Overview](#overview)
+- [App Functionalities](#app-functionalities)
+  - [Conversational Ability](#conversational-ability)
+  - [Latest News Feature](#latest-news-feature)
+  - [CSV Upload and Query](#csv-upload-and-query)
+  - [PDF Upload and Chat](#pdf-upload-and-chat)
+- [Technologies Used](#technologies-used)
+- [Contributions](#contributions)
+- [Contact Information](#contact-information)
+
 ## Overview
 This AI assistant is a versatile tool designed to cater to various needs, offering a user-friendly interface for:
 - Knowledge-based queries
@@ -34,9 +45,7 @@ Users can stay updated on current affairs and trending topics within the app.
 <p align="center">
 <img src="https://github.com/AzizBenAli/AI-Assistant-for-Knowledge-and-Data-Exploration/assets/116091818/59958af9-f914-4b8b-a6cc-282822614f02" alt="Search" width="900">
 </p>
-Description: Showcasing the AI Assistant's ability to provide users with the latest news updates, expanding its functionality beyond conventional use cases.
-
- 
+Description: Showcasing the AI Assistant's ability to provide users with the latest news updates, expanding its functionality beyond conventional use cases. 
 
 ### CSV Upload and Query
 Users can upload CSV files and query the AI Assistant for specific information and insights.
@@ -56,7 +65,7 @@ Users can have conversations with the AI Assistant based on the content of the u
 </p>
 Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 
-### Technologies Used
+## Technologies Used
 Ultra-2 Language Model from AI21 Studio: It powers the conversational capabilities and drives the AI's intelligence.  
 Mixtral 8×7B: Utilized to answer queries based on CSV and PDF files, enhancing data interaction capabilities.   
 Hugging Face Transformers and Embeddings: Crucial components for various NLP tasks, contributing to the AI's intelligence and understanding.  
@@ -64,10 +73,10 @@ Python: Employed for backend logic due to its versatility, extensive libraries, 
 Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
 Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.     
 
-### Contributions 
+## Contributions 
 Contributions to enhance features or add new capabilities are welcome! Fork the repository, make your changes, and submit a pull request.
 
-### Contact Information
+## Contact Information
 For inquiries or feedback, reach out to [benaliazizaba000@gmail.com] 
 
 

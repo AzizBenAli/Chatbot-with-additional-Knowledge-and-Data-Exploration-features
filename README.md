@@ -7,7 +7,7 @@
   - [Latest News Feature](#latest-news-feature)
   - [CSV Upload and Query](#csv-upload-and-query)
   - [PDF Upload and Chat](#pdf-upload-and-chat)
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#technologies-used) 
 - [Contributions](#contributions)
 - [Contact Information](#contact-information)
 

@@ -98,7 +98,8 @@ We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract informatio
 - Python: Employed for backend logic due to its versatility, extensive libraries, and robust functionality.  
 - Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
 - Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.
-- 
+
+
 # **Commands**
 - Running the app locally from this repository   
 - clone this repository    

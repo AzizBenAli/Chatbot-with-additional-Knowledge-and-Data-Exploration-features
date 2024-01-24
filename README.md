@@ -88,7 +88,7 @@ We have developed agents to enhance the performance of the large language model 
 
 - **CSV Analysis Agent**: Reads CSV files and answers questions based on the data. Recently enhanced to provide advanced plot generation capabilities based on user input.This implementation was carried out to offer users a more transparent and informative experience when interacting with the AI Assistant.
 
-### RAG Pipeline
+### RAG Pipeline [Paper](https://arxiv.org/pdf/2005.11401.pdf)
 We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract information from PDF files, enhancing the AI Assistant's ability to understand and respond to user queries. The pipeline leverages open-source embeddings from Hugging Face and the Mistral open-source model for processing the retrieval and generation steps.
 # **Commands**
 - Running the app locally from this repository   

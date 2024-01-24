@@ -7,6 +7,14 @@
   - [Latest News Feature](#latest-news-feature)
   - [CSV Upload and Query](#csv-upload-and-query)
   - [PDF Upload and Chat](#pdf-upload-and-chat)
+- [Implementation Details](#implementation-details)
+    - [Agents](#agents)
+         - [Calculator Agent](#calculator-agent)
+         - [Python Code Execution Agent](#python-code-execution-agent)
+         - [Time Agent](#time-agent)
+         - [Web Search Agent](#web-search-agent)
+         - [CSV Analysis Agent](#csv-analysis-agent)
+    - [RAG Pipeline](#rag-pipeline)
 - [Technologies Used](#technologies-used)  
 - [Contributions](#contributions)
 - [Contact Information](#contact-information)
@@ -65,14 +73,6 @@ Users can have conversations with the AI Assistant based on the content of the u
 </p>
 Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 
-## Technologies Used
-- Ultra-2 Language Model from AI21 Studio: It powers the conversational capabilities and drives the AI's intelligence.  
-- Mixtral 8×7B: Utilized to answer queries based on CSV and PDF files, enhancing data interaction capabilities.   
-- Hugging Face Transformers and Embeddings: Crucial components for various NLP tasks, contributing to the AI's intelligence and understanding.  
-- Python: Employed for backend logic due to its versatility, extensive libraries, and robust functionality.  
-- Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
-- Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.     
-
 ## Implementation Details
 
 ### Agents [website](https://python.langchain.com/docs/modules/agents/agent_types/)
@@ -90,6 +90,15 @@ We have developed agents to enhance the performance of the large language model 
 
 ### RAG Pipeline [Paper](https://arxiv.org/pdf/2005.11401.pdf)
 We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract information from PDF files, enhancing the AI Assistant's ability to understand and respond to user queries. The pipeline leverages open-source embeddings from Hugging Face and the Mistral open-source model for processing the retrieval and generation steps.
+
+## Technologies Used
+- Ultra-2 Language Model from AI21 Studio: It powers the conversational capabilities and drives the AI's intelligence.  
+- Mixtral 8×7B: Utilized to answer queries based on CSV and PDF files, enhancing data interaction capabilities.   
+- Hugging Face Transformers and Embeddings: Crucial components for various NLP tasks, contributing to the AI's intelligence and understanding.  
+- Python: Employed for backend logic due to its versatility, extensive libraries, and robust functionality.  
+- Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
+- Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.
+- 
 # **Commands**
 - Running the app locally from this repository   
 - clone this repository    

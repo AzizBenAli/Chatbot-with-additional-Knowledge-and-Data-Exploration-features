@@ -75,7 +75,7 @@ Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 
 ## Implementation Details
 
-### Agent [website](https://python.langchain.com/docs/modules/agents/agent_types/)
+### Agents [website](https://python.langchain.com/docs/modules/agents/agent_types/)
 We have developed agents to enhance the performance of the large language model and reduce hallucination:
 
 - **Calculator Agent**: Improves the AI Assistant's performance in mathematical problem-solving.
@@ -95,7 +95,7 @@ We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract informatio
 - clone this repository    
 - Create a new Python environment provided with pip    
 - run pip install -r requirements.txt    
-- run streamlit run chatbot.py    
+- run streamlit run app.py    
 - Now open the 'External URL' in your browser. Enjoy the bot.   
 <br>
 <img width="600" alt="streamlit_app" src="https://github.com/AzizBenAli/YouTubeChat-App/assets/116091818/c6c859b4-f4cd-4b34-8bc2-6ceb567de0de">   

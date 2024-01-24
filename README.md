@@ -92,7 +92,7 @@ We have developed agents to enhance the performance of the large language model 
 ### RAG Pipeline [Paper](https://arxiv.org/pdf/2005.11401.pdf)
 We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract information from PDF files, enhancing the AI Assistant's ability to understand and respond to user queries. The pipeline leverages open-source embeddings from Hugging Face and the Mistral open-source model for processing the retrieval and generation steps.
 
-### A Memory
+### A Memory  [website](https://python.langchain.com/docs/modules/memory/)
 The conversation module of the chatbot seamlessly incorporates the buffer memory functionality inherent in the Langchain library
 
 ## Technologies Used

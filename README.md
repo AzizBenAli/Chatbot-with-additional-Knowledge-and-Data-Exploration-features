@@ -73,7 +73,33 @@ Description: Interacting with the AI Assistant using uploaded PDFs for queries.
 - Streamlit: Utilized to create the user-friendly interface, ensuring an interactive and seamless user experience.  
 - Langchain: Used for developing prompts and agents, enriching the AI Assistant's functionality and adaptability.     
 
+## Implementation Details
 
+### Agent [website](https://python.langchain.com/docs/modules/agents/agent_types/)
+We have developed agents to enhance the performance of the large language model and reduce hallucination:
+
+- **Calculator Agent**: Improves the AI Assistant's performance in mathematical problem-solving.
+
+- **Python Code Execution Agent**: Allows users to execute Python code directly within the AI Assistant.
+
+- **Time Agent**: Provides the current time and date information.
+
+- **Web Search Agent**: Enables the AI Assistant to search the web for information to answer user queries.
+
+- **CSV Analysis Agent**: Reads CSV files and answers questions based on the data. Recently enhanced to provide advanced plot generation capabilities based on user input.This implementation was carried out to offer users a more transparent and informative experience when interacting with the AI Assistant.
+
+### RAG Pipeline
+We utilize a RAG (Retrieval-Augmented Generation) pipeline to extract information from PDF files, enhancing the AI Assistant's ability to understand and respond to user queries. The pipeline leverages open-source embeddings from Hugging Face and the Mistral open-source model for processing the retrieval and generation steps.
+# **Commands**
+- Running the app locally from this repository   
+- clone this repository    
+- Create a new Python environment provided with pip    
+- run pip install -r requirements.txt    
+- run streamlit run chatbot.py    
+- Now open the 'External URL' in your browser. Enjoy the bot.   
+<br>
+<img width="600" alt="streamlit_app" src="https://github.com/AzizBenAli/YouTubeChat-App/assets/116091818/c6c859b4-f4cd-4b34-8bc2-6ceb567de0de">   
+<br>
 ## Contributions 
 Contributions to enhance features or add new capabilities are welcome! Fork the repository, make your changes, and submit a pull request.
 
